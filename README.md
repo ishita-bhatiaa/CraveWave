@@ -70,6 +70,14 @@ with.
 
 Screenshots:
 <img width="1404" alt="Screenshot 2024-02-06 at 1 20 35 AM" src="https://github.com/ishita-bhatiaa/CraveWave/assets/108412553/9e2a01e1-8279-4a4e-a698-e03e896244c8">
+<img width="1408" alt="Screenshot 2024-02-06 at 1 20 46 AM" src="https://github.com/ishita-bhatiaa/CraveWave/assets/108412553/0ae02dc6-9601-4a19-affc-03fe449617db">
+<img width="1404" alt="Screenshot 2024-02-06 at 1 20 59 AM" src="https://github.com/ishita-bhatiaa/CraveWave/assets/108412553/2b558b6a-7c1e-4697-a37a-8289f3e973b5">
+<img width="1405" alt="Screenshot 2024-02-06 at 1 21 10 AM" src="https://github.com/ishita-bhatiaa/CraveWave/assets/108412553/3de1f1da-93b1-4e48-aa21-24007de39e7f">
+<img width="1403" alt="Screenshot 2024-02-06 at 1 21 50 AM" src="https://github.com/ishita-bhatiaa/CraveWave/assets/108412553/65d4bed9-a45f-4e09-81fc-c59501947ce4">
+<img width="1407" alt="Screenshot 2024-02-06 at 1 22 16 AM" src="https://github.com/ishita-bhatiaa/CraveWave/assets/108412553/97d1d3b2-27c9-494e-a0c6-c919bc902f7a">
+<img width="1406" alt="Screenshot 2024-02-06 at 1 22 33 AM" src="https://github.com/ishita-bhatiaa/CraveWave/assets/108412553/b95380a9-7d5d-4948-b03a-0003744fa31e">
+
+
 
 
 Conclusion:
