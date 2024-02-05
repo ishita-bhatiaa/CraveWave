@@ -52,7 +52,7 @@ The MySQL database stores user profiles, order details, and chat history. This i
 the chatbot to personalize interactions, maintain a record of user activity, and retrieve order
 information when needed.
 
-Development Process
+Development Process:
 The development process can be summarized as follows:
 1. Database Design: Create the MySQL database schema to store user information, order
 details, and chat history.
@@ -68,7 +68,11 @@ different scenarios, and provides accurate responses.
 7. Deployment: Deploy the chatbot on the food delivery website for users to access and interact
 with.
 
-Conclusion
+Screenshots:
+<img width="1404" alt="Screenshot 2024-02-06 at 1 20 35 AM" src="https://github.com/ishita-bhatiaa/CraveWave/assets/108412553/9e2a01e1-8279-4a4e-a698-e03e896244c8">
+
+
+Conclusion:
 The development of a basic PHP chatbot for a food delivery website enhances the user
 experience by providing real-time assistance in placing orders and answering common queries.
 The chatbot's integration with a MySQL database enables it to personalize interactions and
