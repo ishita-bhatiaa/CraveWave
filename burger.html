@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" >
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        /* Create three equal columns that floats next to each other */
+        .column {
+          float: left;
+          width: 33.33%;
+          padding: 10px;
+          height: 300px; /* Should be removed. Only for demonstration */
+        }
+        
+        /* Clear floats after the columns */
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        </style>
+</head>
+<body>
+    
+    <div style="width: 100;height: 200px;text-align: center;">
+    <h1>Burger</h1>
+    
+        <input type="text"placeholder="Search..">
+
+    </div>
+    <div class="row">
+        <div class="column">
+        
+          <p>.</p>
+        </div>
+        <div class="column">
+            <table>
+                <tr>
+                    <td><img width="170px" height="170px" src="b/burge1.jpg" alt="loading"></td>
+                    <td><h3 style="padding-bottom: 50px;"><i style="color: brown;"> Bestseller</i>  <br>American Cheese Burger <br>₹199 
+                        <br> ⭐⭐⭐⭐ <br> <br><button><a href="#" data-name="American Cheese Burger" data-price="199 " class="add-to-cart">Add to cart</a></button></h3></td>
+    
+    
+                </tr>
+                <tr>
+                    <td><img width="170px" height="170px" src="b/burge2.jpg" alt="loading"></td>
+                    <td><h3 style="padding-bottom: 50px;"><i style="color: brown;"> Bestseller</i>  <br>Mahraja Mac <br>₹159 
+                        <br> ⭐⭐⭐⭐ <br> <br><button><a href="#" data-name="Mahraja Mac" data-price="169 " class="add-to-cart">Add to cart</a></button></h3></td>
+    
+                </tr>
+                <tr>
+                    <td><img width="170px" height="170px" src="b/burge3.jpg" alt="loading"></td>
+                    <td><h3 style="padding-bottom: 50px;"><i style="color: brown;"> </i>  <br>Veggie Burger <br>₹209 
+                        <br> ⭐⭐⭐⭐ <br> <br><button><a href="#" data-name="Veggie Burger" data-price="209 " class="add-to-cart">Add to cart</a></button></h3></td>
+    
+    
+                </tr>
+                <tr>
+                    <td><img width="170px" height="170px" src="b/burge4.jpg" alt="loading"></td>
+                    <td><h3 style="padding-bottom: 50px;"><i style="color: brown;"> </i>  <br>Mac n Cheese Burger<br>₹225 
+                        <br> ⭐⭐⭐ <br> <br><button><a href="#" data-name="Mac n Cheese Burger" data-price="225 " class="add-to-cart">Add to cart</a></button></h3></td>
+    
+    
+                </tr>
+                <tr>
+                    <td><img width="170px" height="170px" src="b/burge5.jpg" alt="loading"></td>
+                    <td><h3 style="padding-bottom: 50px;"><i style="color: brown;"> </i>  <br>Spicy Corn Burger <br>₹199
+                        <br> ⭐⭐⭐ <br> <br><button><a href="#" data-name="Spicy Corn Burger" data-price="199 " class="add-to-cart">Add to cart</a></button></h3></td>
+    
+    
+                </tr>
+                <tr>
+                    <td><img width="170px" height="170px" src="b/burge6.jpg" alt="loading"></td>
+                    <td><h3 style="padding-bottom: 50px;"><i style="color: brown;"> </i>  <br>Cheese Burger <br>₹149
+                        <br> ⭐⭐⭐⭐ <br> <br><button><a href="#" data-name="Cheese Burger" data-price="149 " class="add-to-cart">Add to cart</a></button></h3></td>
+    
+    
+                </tr>
+                <tr>
+                    <td><img width="170px" height="170px" src="b/burge7.jpg" alt="loading"></td>
+                    <td><h3 style="padding-bottom: 50px;"><i style="color: brown;"> </i>  <br>Zinger <br>₹157 
+                        <br> ⭐⭐ <br> <br><button><a href="#" data-name="Zinger" data-price="157 " class="add-to-cart">Add to cart</a></button></h3></td>
+    
+    
+                </tr>
+                <tr>
+                    <td><img width="170px" height="170px" src="b/burge8.jpg" alt="loading"></td>
+                    <td><h3 style="padding-bottom: 50px;"><i style="color: brown;"> </i>  <br>Indi Tikka Burger <br>₹169
+                        <br> ⭐⭐⭐⭐ <br> <br><button><a href="#" data-name="Indi Tikka Burger " data-price="169 " class="add-to-cart">Add to cart</a></button></h3></td>
+    
+    
+                </tr>
+                <tr>
+                    <td><img width="170px" height="170px" src="b/burge9.jpg" alt="loading"></td>
+                    <td><h3 style="padding-bottom: 50px;"><i style="color: brown;"> </i>  <br>Classic Burger <br>₹179
+                        <br> ⭐⭐ <br> <br><button><a href="#" data-name="Classic Burger" data-price="179 " class="add-to-cart">Add to cart</a></button></h3></td>
+    
+    
+                </tr>
+                <tr>    
+                    <td><img width="170px" height="170px" src="b/burge10.jpg" alt="loading"></td>
+                    <td><h3 style="padding-bottom: 50px;"><i style="color: brown;"> </i>  <br>Chicken Mexicana Burger <br>₹169
+                        <br> ⭐⭐⭐ <br> <br><button><a href="#" data-name="Chicken Mexicana Burger" data-price="169 " class="add-to-cart">Add to cart</a></button></h3></td>
+    
+    
+                </tr>
+                <tr>
+                    <td><img width="170px" height="170px" src="b/burge11.jpg" alt="loading"></td>
+                    <td><h3 style="padding-bottom: 50px;"><i style="color: brown;"> </i>  <br>Meat Craver's Burger <br>₹169
+                        <br> ⭐⭐⭐⭐ <br> <br><button><a href="#" data-name="Meat Craver's Burger" data-price="169 " class="add-to-cart">Add to cart</a></button></h3></td>
+    
+    
+                </tr>
+               
+    
+    
+    
+    
+    
+            </table>
+        <div class="column">
+            <h1>Cart</h1>  
+                <nav class="navbar navbar-inverse bg-inverse fixed-top bg-faded">
+                 <div class="row">
+                     <div class="col">
+                       <button type="button" class="btn" style="background-color: lavender;padding: 10px 24px;" data-toggle="modal" data-target="#cart">Cart (<span class="total-count"></span>)</button><button class="clear-cart btn  style="background-color: lavender;padding: 10px 24px;"btn- style="background-color: lavender;padding: 10px 24px;"danger">Clear Cart</button></div>
+                 </div>
+                 </nav> 
+                 <div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                     <div class="modal-dialog modal-lg" role="document">
+                         <div class="modal-content">
+                             <div class="modal-body">
+                                 <table class="show-cart table">
+                         
+                                 </table>
+                                 <div>Total price:₹<span class="total-cart"></span></div>
+                             </div>
+                         <div class="modal-footer">
+                             <button type="button" class="btn" style="background-color: lavender;padding: 10px 24px;" data-dismiss="modal">Close</button>
+                             <a href="payment.html"> <button type="button" class="btn" style="background-color: lavender;padding: 10px 24px;">Order now</button></a>
+                         </div>
+                         </div>
+                     </div>
+                 </div>
+        </div>
+    
+    <div style="padding-left: 500px;">
+        
+    </div>
+
+    <p></p>
+    <script src="cart.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FODEL</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body{ font: 14px sans-serif; }
+        .wrapper{ width: 360px; padding: 20px; }
+    </style>
+</head>
+<body>
+    <div style="width: 100%; height: 550px;">
+        <div class="div1">
+            <div class="div2">
+                <h1 class="head1"><i>Welcome to</i></h1>
+                <h1 class="head1"><i>FODEL</i></h1>
+            </div>
+            <div class="div3">
+                <div class="wrapper">
+                    <?php 
+                    if(!empty($login_err)){
+                        echo '<div class="alert alert-danger">' . $login_err . '</div>';
+                    }        
+                    ?>
+
+                    <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
+                        <div class="form-group">
+                            <label>Username</label>
+                            <input type="text" name="username" class="form-control <?php echo (!empty($username_err)) ? 'is-invalid' : ''; ?>" value="<?php echo $username; ?>">
+                            <span class="invalid-feedback"><?php echo $username_err; ?></span>
+                        </div>    
+                        <div class="form-group">
+                            <label>Password</label>
+                            <input type="password" name="password" class="form-control <?php echo (!empty($password_err)) ? 'is-invalid' : ''; ?>">
+                            <span class="invalid-feedback"><?php echo $password_err; ?></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" class="btn btn-primary" value="Login">
+                        </div>
+                        <p>Don't have an account? <a href="register.php">Sign up now</a>.</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="div4" style="width:50%; height: 550px; float:left;">  
+            <img class="img1" src="img.png" alt="img...">  
+        </div>  
+    </div>
+    <div class="div5">
+        <div class="div6" style="float: left;">
+            <img class="img2" style="height: 220px;width: 30%; ;" src="img_min.jpg" alt="img..">
+            <h1 class="h1">NO MINIUM ORDER</h1>
+            <p class="h1" >Order in for yourself or for the group,<br> with no restrictions on order value</p>
+        </div>
+        <div class="div6" style="float: left ;">
+            <h1 class="h1">DINE IN</h1>
+            <p class="h1">Dine in is available,<br>come in group and enjoy your food</p>
+            <img class="img2" style="height: 220px;width: 30%;padding-top: 47px; " src="img_take.jpg" alt="img..">
+        </div>
+        <div class="div6" style="float: left;">
+            <img class="img2" style="height: 220px;width: 30%; ;" src="img_home.png" alt="img..">
+            <h1 class="h1">EAT AT YOUR PLACE</h1>
+            <p class="h1">Order in and pick up order,<br>at the location of resturant</p>
+        </div>
+    </div>
+    <div class="k" style="width: 50%;height: 408px;background-color: black;">
+        <iframe src="https://giphy.com/embed/jKaFXbKyZFja0" width="480" height="407" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/jKaFXbKyZFja0">via GIPHY</a></p>    
+    </div>
+    <div class="k" style="width: 50%;height: 414px;">
+        <h4>An online food ordering system is software that lets restaurants, coffee shops, or bars accept orders online.
+            <br> It typically allows customers to choose and pay for food, then alerts the kitchen when an order is made.
+            <br> This happens without contact between staff and customers.</h4>
+    </div>
+</body>
+</html>
